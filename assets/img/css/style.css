@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 /* estilos da pagina html*/
 .center{
     text-align: center;
 }
+.titulo{
+    font-family: fantasy;
+    color: white;
+}
+
+ 
+
 .justify{
     text-align: justify;
 }
@@ -10,6 +18,10 @@
     flex-flow:row  ;
     justify-content: center;
     align-items: center;
+}
+body{
+    background-color: rgb(216, 207, 206);
+    
 }
 .foto{
     width:400px;
