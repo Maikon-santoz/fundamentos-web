@@ -16,6 +16,7 @@ function validaNome(){
     if (nome.value.length <3) {
         txtNome.innerHTML = 'Nome Inválido'
         txtNome.style.color ='red'
+        nomeOk = false
     } else{
         txtNome.innerHTML = 'Nome válido'
         txtNome.style.color = 'blue'
@@ -59,8 +60,8 @@ function enviar(){
     }
 }
 function  mapaZoom(){
-    mapa.style.width ='800px'
-    mapa.style.height = '600px'
+    mapa.style.width ='600px'
+    mapa.style.height = '350px'
 
 }
 
